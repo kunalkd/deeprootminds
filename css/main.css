@@ -242,3 +242,30 @@ li.nav-item {
 .navbar.top-nav-collapse {
     box-shadow: 2px -4px 3px 6px rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%) !important;
 }
+
+.navbar-toggler span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: auto;
+  margin-bottom: 4px;
+  transition: all 400ms linear;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.navbar-toggler[aria-expanded="true"] span:first-child {
+  transform: rotate(-45deg);
+  position: relative;
+  top: 7.5px;
+}
+
+.navbar-toggler[aria-expanded="true"] span:nth-child(2) {
+  opacity: 0;
+}
+
+.navbar-toggler[aria-expanded="true"] span:last-child {
+  transform: rotate(45deg);
+  bottom: 6px;
+  position: relative;
+}
