@@ -60,26 +60,29 @@ body::-webkit-scrollbar-thumb {
   font-family: 'Montserrat', sans-serif !important;
 }
 
-.font-glacialindifference-bold{
+.font-glacialindifference-bold {
   font-family: 'glacialindifference-bold' !important;
 }
 
-.font-glacialindifference-italic{
+.font-glacialindifference-italic {
   font-family: 'glacialindifference-italic' !important;
 }
 
-.font-glacialindifference{
+.font-glacialindifference {
   font-family: 'glacialindifference' !important;
 }
+
 @media (max-width: 768px) {
 
   .border-right {
     border-right: 0px !important;
   }
 }
-.text-gray{
+
+.text-gray {
   color: #707070 !important;
 }
+
 @media (max-width: 450px) {
 
   #home {
@@ -240,7 +243,7 @@ li.nav-item {
 }
 
 .navbar.top-nav-collapse {
-    box-shadow: 2px -4px 3px 6px rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%) !important;
+  box-shadow: 2px -4px 3px 6px rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%) !important;
 }
 
 .navbar-toggler span {
@@ -268,4 +271,45 @@ li.nav-item {
   transform: rotate(45deg);
   bottom: 6px;
   position: relative;
+}
+
+.rotate {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  -webkit-animation: spin 30s linear infinite;
+  -moz-animation: spin 30s linear infinite;
+  animation: spin 30s linear infinite;
+}
+
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(-360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(-360deg);
+  }
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(3-60deg);
+    transform: rotate(-360deg);
+  }
+}
+
+a#goToTop {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 50%;
+  text-align: center;
+  color: black;
+  outline: #000;
 }
