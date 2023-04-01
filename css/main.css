@@ -142,14 +142,16 @@ li.nav-item:hover:after {
 #home {
   /* padding-top: 65px; */
   background: #2065f8;
-  background: radial-gradient(farthest-corner at 52% -2%,
+  /*background: radial-gradient(farthest-corner at 52% -2%,
       #2065f8 0%,
       #1646c2 19%,
       #0e2d96 38%,
       #081973 55%,
       #030b5b 72%,
       #00024c 87%,
-      #000047 100%);
+      #000047 100%);*/
+   background-image:url("../images/bg-home.png");
+background-size:cover
 }
 
 .bounce {
