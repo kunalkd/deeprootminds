@@ -150,8 +150,8 @@ li.nav-item:hover:after {
       #030b5b 72%,
       #00024c 87%,
       #000047 100%);*/
-   background-image:url("../images/bg-home.png");
-background-size:cover
+  background-image: url("../images/bg-home.png");
+  background-size: cover
 }
 
 .bounce {
@@ -316,4 +316,34 @@ a#goToTop {
   outline: #000;
 }
 
-.bg-dr-dark-blue{background-color: #0A2182 !important;}
+.bg-dr-dark-blue {
+  background-color: #0A2182 !important;
+}
+
+.bg-dr-blue {
+  background-color: #1D5DEA !important;
+}
+
+.bg-dr-deep-blue {
+  background-color: #020855 !important;
+}
+
+.btn-curve {
+  border-radius: 24px !important;
+}
+
+a.under-line {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
+
+a.hover {
+    border: 2px solid #1d5dea;
+    background-color: inherit;
+}
+
+a.hover:hover {
+    background-color: transparent !important;
+}
+
+.text-dr-grey{color: #F7F7F7 !important;}
