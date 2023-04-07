@@ -340,17 +340,25 @@ a#goToTop {
 }
 
 a.under-line {
-    text-decoration: underline;
-    text-decoration-thickness: 1px;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
 }
 
 a.hover {
-    border: 2px solid #1d5dea;
-    background-color: inherit;
+  border: 2px solid #1d5dea;
+  background-color: inherit;
 }
 
 a.hover:hover {
-    background-color: transparent !important;
+  background-color: transparent !important;
 }
 
-.text-dr-grey{color: #F7F7F7 !important;}
+.text-dr-grey {
+  color: #F7F7F7 !important;
+}
+
+@media (min-width: 1500px) {
+  .container {
+    max-width: 1400px !important;
+  }
+}
