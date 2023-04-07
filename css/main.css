@@ -72,6 +72,13 @@ body::-webkit-scrollbar-thumb {
   font-family: 'glacialindifference' !important;
 }
 
+@media (min-width: 1400px) {
+
+  .container {
+    max-width: 1300px !important;
+  }
+}
+
 @media (max-width: 768px) {
 
   .border-right {
